@@ -1,6 +1,8 @@
 package main
 
-import "example.com/array-slices-map/slice"
+import "example.com/array-slices-map/exercise_practice"
+
+// import "example.com/array-slices-map/slice"
 
 func main() {
 	// prices := [4]float64{11.2, 22.0, 23.3, 12.4}
@@ -13,5 +15,6 @@ func main() {
 	// fmt.Println("Highlighted price is: ", highlightedPrice)
 	// fmt.Println("The length of the highlighted price is: ", len(highlightedPrice))
 	// fmt.Println("The capacity of the highlighted price is: ", cap(highlightedPrice))
-	slice.PlayWithSlices()
+	// slice.PlayWithSlices()
+	exercise_practice.PracticeExercise()
 }
