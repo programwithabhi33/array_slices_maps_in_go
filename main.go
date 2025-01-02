@@ -17,5 +17,6 @@ func main() {
 	// fmt.Println("The capacity of the highlighted price is: ", cap(highlightedPrice))
 	// slice.PlayWithSlices()
 	//exercise_practice.PracticeExercise()
-  maps.PlayWithMaps()
+  //maps.PlayWithMaps()
+  maps.MakeFnOptimizationWithArraySlices()
 }

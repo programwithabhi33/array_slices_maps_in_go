@@ -19,3 +19,14 @@ func PlayWithMaps() {
 	fmt.Println(websiteWithCompanyNames)
 
 }
+func MakeFnOptimizationWithArraySlices() {
+	userNames := make([]string, 2, 3) // The make function is used to allocate memory space for how length and capacity specified as the second and third argument, so that you don't need to append you can overwrite those [LENGTH] elements using their indexes and capacity for to efficient memory management when adding elements to that array
+
+	userNames[0] = "Abhishek"
+	userNames[1] = "Niranjan"
+
+	userNames = append(userNames, "Rohan")
+	userNames = append(userNames, "Swapnil")
+
+	fmt.Println("User names are: ", userNames)
+}
