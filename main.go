@@ -18,5 +18,5 @@ func main() {
 	// slice.PlayWithSlices()
 	//exercise_practice.PracticeExercise()
   //maps.PlayWithMaps()
-  maps.MakeFnOptimizationWithArraySlices()
+  maps.MakeFnOptimizationWithArraySlicesAndMaps()
 }
