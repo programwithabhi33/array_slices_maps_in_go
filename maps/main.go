@@ -32,7 +32,11 @@ func MakeFnOptimizationWithArraySlicesAndMaps() {
 	userNames = append(userNames, "Rohan")
 	userNames = append(userNames, "Swapnil")
 
-	fmt.Println("User names are: ", userNames)
+	//fmt.Println("User names are: ", userNames)
+  for index, value := range userNames {
+    fmt.Println("Index: ", index)
+    fmt.Println("Value is", value)
+  }
   
   //make function for maps
   websiteWithCompanyNames := make(StringMap, 3) // The second argument for make function is the capacity of the map
