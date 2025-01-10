@@ -43,5 +43,9 @@ func MakeFnOptimizationWithArraySlicesAndMaps() {
   websiteWithCompanyNames["Google"] = "https://google.com"
   websiteWithCompanyNames["Meta"] = "https://facebook.com"
   websiteWithCompanyNames["LinkedIn"] = "https://linkedin.com"
-  websiteWithCompanyNames.outputMap();
+  //websiteWithCompanyNames.outputMap();
+
+  for key, value := range websiteWithCompanyNames {
+    fmt.Println("Key: ", key, "Value: ", value)
+  }
 }
