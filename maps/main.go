@@ -1,6 +1,10 @@
 package maps
 
 import "fmt"
+type StringMap map[string]string
+func (m StringMap) outputMap(){
+  fmt.Println(m)
+}
 
 func PlayWithMaps() {
 	websiteWithCompanyNames := map[string]string{
@@ -31,10 +35,9 @@ func MakeFnOptimizationWithArraySlicesAndMaps() {
 	fmt.Println("User names are: ", userNames)
   
   //make function for maps
-  websiteWithCompanyNames := make(map[string]string, 3) // The second argument for make function is the capacity of the map
+  websiteWithCompanyNames := make(StringMap, 3) // The second argument for make function is the capacity of the map
   websiteWithCompanyNames["Google"] = "https://google.com"
   websiteWithCompanyNames["Meta"] = "https://facebook.com"
   websiteWithCompanyNames["LinkedIn"] = "https://linkedin.com"
-  
-  fmt.Println("Website with company names are: ", websiteWithCompanyNames);
+  websiteWithCompanyNames.outputMap();
 }
